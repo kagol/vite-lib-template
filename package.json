@@ -1,5 +1,5 @@
 {
-  "name": "@kagol/vite-lib-template",
+  "name": "@kagol/my-lib",
   "version": "0.0.1",
   "type": "module",
   "files": ["dist"],

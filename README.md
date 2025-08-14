@@ -64,6 +64,22 @@ export default defineConfig({
 })
 ```
 
+## 发布的包如何使用
+
+安装：
+
+```shell
+pnpm i @kagol/my-lib
+```
+
+引入和使用：
+
+```typescript
+import { add } from '@kagol/my-lib'
+
+console.log('add(1, 2):', add(1, 2))
+```
+
 ## 下一步
 
 - 给前端工具库增加基于 VitePress 的文档系统
